@@ -1,4 +1,4 @@
-﻿DROP TABLE Message;
+DROP TABLE Message;
 
 DROP TABLE Friend;
 
@@ -49,3 +49,8 @@ CREATE TABLE Message(
 );
 
 INSERT INTO Users(login, password, role) VALUES ('Admin','verySecurePassword','Admin');
+INSERT INTO Users(login, password) VALUES ('One','verySecurePasswordOne');
+INSERT INTO Users(login, password) VALUES ('Two','verySecurePasswordTwo');
+INSERT INTO Users(login, password) VALUES ('Three','verySecurePasswordThree');
+INSERT INTO Users(login, password) VALUES ('Four','verySecurePasswordFour');
+INSERT INTO Users(login, password) VALUES ('Five','verySecurePasswordFive');
